@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Formulary</title>
+  <style>
+    textarea {
+      resize: none;
+    }
+  </style>
+</head>
+
+<body>
+  <fieldset>
+    <legend>Contact</legend>
+    <br>
+    <strong>Subject:</strong>
+    <select name="subject" id="subjects">
+      <datalist id="subjects">
+        <option>Support</option>
+        <option>Suggestion</option>
+        <option>Complaint</option>
+      </datalist>
+    </select>
+    <br><br>
+    <strong>Full name:</strong> <br>
+    <input type="text" placeholder="Your name." name="fullName" id="fullName">
+    <br><br>
+    <strong>E-mail:</strong><br>
+    <input type="email" placeholder="Your best email" name="email" id="email">
+    <br><br>
+    <strong>Message:</strong><br>
+    <!-- <input type="text" name="" id=""> What i wanted to used is textarea -->
+    <textarea name="" id="" wrap cols="30" rows="10"></textarea>
+    <br><br>
+    <input type="checkbox" checked name="newsletter" id="newsletter">
+    I accept receive newsletters. <br><br>
+    <button type="submit">Send</button>
+  </fieldset>
+</body>
+
+</html>
